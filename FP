@@ -1,0 +1,21 @@
+java.io._
+Scala.io.source
+object main { 
+  Def main(args:Array[String])
+  {
+    Var datasets=5
+    Var sprt
+    Println("enter support")
+    sprt=readFouble
+    Var trans=List[List]]()
+    For(i<0 to datasets-1)
+    { trans= trans:::List(List.fill(26)(0+scala.utl.Ranom.nxtin(2)))
+     }
+    var myList=ListChar]()
+    for(i<65 to 90){myList=myList:::(i.toChar)}
+    var result=trans.mp(x=>(myList.zip(x)).filter(_._2!=0).map(_._1))
+    println("your first frequent pattern")
+    println("total")
+    itemCount.foreach(println)
+    }
+  }
